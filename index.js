@@ -1,3 +1,14 @@
+//Button method 2
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert("Hello World 2");
+
+//Button method 3
+const btn2 = document.querySelector('#btn2');
+btn2.addEventListener('click', () => {
+    alert("Hello world 3");
+});
+
+//Establish the container ID
 const container = document.querySelector('#container');
 
 //Add red text
@@ -45,3 +56,4 @@ pink_div.appendChild(p_content);
 
 //Append HTML with pink_div
 container.appendChild(pink_div);
+
